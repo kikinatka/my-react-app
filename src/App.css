@@ -27,6 +27,11 @@
 .App-link {
   color: #61dafb;
 }
+.App.label {
+  width: 100px;
+  height: 50px;
+  background: rgb(199, 199, 253); 
+ } 
 
 @keyframes App-logo-spin {
   from {

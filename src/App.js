@@ -13,7 +13,7 @@ const App = () => {
   const fetchArticles = async () => {
     try {
       const response = await axios.get(
-        https://content.guardianapis.com/search?q=${topic}&api-key=YOUR_API_KEY
+        https//content.guardianapis.com/search?q=${topic}&api-key=YOUR_API_KEY
       );
       setArticles(response.data.response.results);
     } catch (error) {
